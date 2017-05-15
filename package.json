@@ -8,6 +8,7 @@
     "express": "^4.15.2",
     "materialize-css": "^0.98.2",
     "mongoose": "^4.9.9",
+    "mongoose-validator": "^1.2.6",
     "nodemailer": "^4.0.1"
   },
   "devDependencies": {},
