@@ -14,7 +14,7 @@ app.use( bp.json() );
 app.set("views", path.join(__dirname, "./views"));
 app.set("view engine", "ejs");
 require('./server/config/mongoose.js')
-require("./server/config/routes.js")(app);
+// require("./server/config/routes.js")(app);
 var server = app.listen( port, function() {
   console.log( `server running on port ${ port }` );
 });
