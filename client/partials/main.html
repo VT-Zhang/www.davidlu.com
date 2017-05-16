@@ -1,1 +1,46 @@
-This is main page.
+<script>
+    $(document).ready(function(){
+       $('.parallax').parallax();
+       $('.scrollspy').scrollSpy({
+           scrollOffset:40
+       });
+       $('.modal').modal();
+    });
+</script>
+
+<!-- top fixed navbar -->
+<div class="navbar-fixed">
+    <nav class="blue-grey lighten-3">
+        <div class="nav-wrapper">
+            <h4 class="brand-logo" style="margin-left:20px;">David Lu and Associates</h4>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about_us">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#chinese">中文</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!-- header -->
+<div id="header" class="parallax-container valign-wrapper scrollspy">
+     <div class="container">
+         <div class="row">
+             <div class="col l12 s12 white-text center">
+                 <div class="thin-text valign" style="text-align:center">
+                     <h3>David Lu and Associates</h3>
+                     <h5>Immigration and Investment Services</h5>
+                 </div>
+                 <br />
+                 <a href="#" class="waves-effect orange darken-1 btn">Get Start</a>
+             </div>
+         </div>
+         <div class="row">
+
+         </div>
+     </div>
+     <div class="parallax"><img src="assets/img/court.jpg" class="responsive-img"></div>
+</div>
