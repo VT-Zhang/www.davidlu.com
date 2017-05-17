@@ -2,26 +2,28 @@
     $(document).ready(function(){
        $('.parallax').parallax();
        $('.slider').slider({
-           height: 800
+           height: 400,
+           interval: 3000,
+           transition: 400
        });
        $('.scrollspy').scrollSpy({
-           scrollOffset:40
+           scrollOffset:50
        });
     });
 </script>
 
 <!-- top fixed navbar -->
 <div class="navbar-fixed">
-    <nav class="blue-grey lighten-3">
+    <nav class="grey darken-3">
         <div class="nav-wrapper">
             <h4 class="brand-logo" style="margin-left:20px;">David Lu and Associates</h4>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about_us">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#chinese">中文</a></li>
+                <li><a href="#header"  class="hoverable wave-effect">Home</a></li>
+                <li><a href="#about_us" class="hoverable wave-effect">About Us</a></li>
+                <li><a href="#services" class="hoverable wave-effect">Services</a></li>
+                <li><a href="#news" class="hoverable wave-effect">News</a></li>
+                <li><a href="#contact" class="hoverable wave-effect">Contact</a></li>
+                <li><a href="#chinese" class="hoverable wave-effect">中文</a></li>
             </ul>
         </div>
     </nav>
@@ -47,12 +49,18 @@
      <div class="parallax"><img src="assets/img/court.jpg" class="responsive-img"></div>
 </div>
 
+<div id="about_us" class="section scrollspy" style="background-color: #ccad52">
+    <div class="container center white-text">
+        <h2>{ About Us }</h2>
+    </div>
+</div>
+
 <!-- Full Page Slider -->
 <div class="slider">
     <ul class="slides">
       <li>
         <img src="assets/img/lincoln.jpg">
-        <div class="caption center-align">
+        <div class="caption right-align">
           <h3>Investment Service</h3>
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
@@ -74,6 +82,49 @@
     </ul>
   </div>
 
+  <!-- Attorney Photos -->
   <div class="section" style="background: url('assets/img/attorney.png') no-repeat center center; height: 800px;">
+  </div>
 
+  <!-- Contact Us Section -->
+  <div id="contact" class="section scrollspy" style="background-color: #ccad52;">
+      <div class="container center white-text">
+          <h2>{ Contact }</h2>
+      </div>
+  </div>
+
+  <!-- <div class="section" style="background-image: url('assets/img/capitol.png'); background-size: cover; background-position: center center; background-attachment: fixed;">
+      <div class="row">
+          <div class="container">
+              <div class="col l6 m6 s12 white-text">
+                  <h3 >Contact Us</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum ante vel aliquet euismod. Curabitur accumsan vitae augue vitae.</p>
+                  <ul>
+                      <li><p><i class="material-icons">account_balance</i> 8500 Leesburg Pike, Suite 7000, Vienna, VA 22182</p></li>
+                      <li><p><i class="material-icons">local_phone</i> +1(703)883-1858</p></li>
+                      <li><p><i class="material-icons">local_post_office</i> info@davidlu.com</p></li>
+                      <li><p><i class="material-icons">schedule</i> Mon - Fri 08:30 - 17:00</p></li>
+                  </ul>
+              </div>
+          </div>
+
+      </div>
+  </div> -->
+
+  <div class="parallax-container valign-wrapper">
+       <div class="container">
+           <div class="row">
+               <div class="col l6 m6 s12 white-text" style="font-size: 20px">
+                   <h3 >Contact Us</h3>
+                   <p>Please contact the office, or schedule an appointment!</p>
+                   <ul>
+                       <li><p><i class="material-icons">account_balance</i> 8500 Leesburg Pike, Suite 7000, Vienna, VA 22182</p></li>
+                       <li><p><i class="material-icons">local_phone</i> +1(703)883-1858</p></li>
+                       <li><p><i class="material-icons">local_post_office</i> info@davidlu.com</p></li>
+                       <li><p><i class="material-icons">schedule</i> Mon - Fri 08:30 - 17:00</p></li>
+                   </ul>
+               </div>
+           </div>
+       </div>
+       <div class="parallax"><img src="assets/img/capitol.png" class="responsive-img"></div>
   </div>
