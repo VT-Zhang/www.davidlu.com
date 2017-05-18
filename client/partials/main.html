@@ -93,7 +93,7 @@
           <h2>{ Testmonials }</h2>
       </div>
   </div>
-  <div class="carousel carousel-slider center" data-indicators="true" style="height:500px;">
+  <div class="carousel carousel-slider center" data-indicators="true" style="height:450px;">
       <div class="carousel-fixed-item center">
           <a class="btn waves-effect white grey-text darken-text-2">Next</a>
       </div>
@@ -160,11 +160,14 @@
 
   <!-- Map for Direction -->
   <div class="section" style="margin-top:-15px;">
+        <div class="overlay" onClick="style.pointerEvents='none'"></div>
+        <!-- style="pointer-events:none;" -->
         <iframe
             width=100%
             height="400"
             frameborder="0" style="border:0"
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAv3bkvnlpLTjw_yfL_jBXAXrd1JRk0hQM
+            &zoom=12
             &q=8500+Leesburg+Pike,Vienna+VA" allowfullscreen>
         </iframe>
   </div>
