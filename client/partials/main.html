@@ -15,7 +15,7 @@
         $('.carousel.carousel-slider').carousel({
             fullWidth: true
         });
-        
+
         autoplay();
         function autoplay() {
             $('.carousel').carousel('next');
@@ -105,9 +105,6 @@
       </div>
   </div>
   <div class="carousel carousel-slider center" data-indicators="true" style="height:450px;">
-      <!-- <div class="carousel-fixed-item center">
-          <a class="btn waves-effect white grey-text darken-text-2">Next</a>
-      </div> -->
       <div class="carousel-item grey lighten-3">
           <div class="container">
               <h2><i class="material-icons large">format_quote</i></h2>
@@ -147,15 +144,37 @@
       </div>
   </div>
 
-
-  <div class="parallax-container valign-wrapper">
+  <div class="parallax-container valign-wrapper" style="height:700px;">
        <div class="container">
            <div class="row">
-               <div class="col l6 m6 s12 white-text">
-
+               <div class="col l6 m7 s12 white-text" style="margin-top:25px; height: 450px; background: rgba(96,125,139,.56); border-radius: 10px;">
+                    <div class="container" style="margin-top:15px;">
+                            <div class="input-field col s12">
+                                <input id="name" type="text" class="validate">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="email" type="text" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <input id="phone" type="text" class="validate">
+                                <label for="phone">Phone</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                <label for="textarea1">Message</label>
+                            </div>
+                            <div class="col l4 m4 s12 offset-l6 offset-m6" style="margin-top:10px;">
+                                <a href="#" class="waves-effect orange darken-1 btn">Submit</a>
+                            </div>
+                    </div>
                </div>
-               <div class="col l6 m6 s12 white-text" style="font-size: 20px">
-                   <h3 >Contact Us</h3>
+
+               <div class="col l5 m5 s12 offset-l1 offset-m1 white-text" style="font-size: 20px">
+                   <br />
+                   <h3 class='center'>Contact Us</h3>
+                   <br />
                    <p>Please contact the office to schedule an appointment!</p>
                    <ul>
                        <li><p><i class="material-icons">account_balance</i> 8500 Leesburg Pike, Suite 7000, Vienna, VA 22182</p></li>
